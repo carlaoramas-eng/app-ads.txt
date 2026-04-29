@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mis juegos | Carla Oramas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #1c1c1c;
+    }
+    h1 {
+      margin: 0 0 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #222;
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 14px;
+      background: #00b894;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mis juegos</h1>
+    <p>Juegos creados por Carla Oramas</p>
+  </header>
+
+  <section class="grid">
+    <div class="card">
+      <img src="juegos/juego1.jpg" alt="Juego 1">
+      <h2>Mi Platformer</h2>
+      <p>Juego de plataformas hecho en GDevelop.</p>
+      <a class="btn" href="https://tulinkdeljuego.com" target="_blank" rel="noopener noreferrer">Jugar</a>
+    </div>
+
+    <div class="card">
+      <img src="juegos/juego2.jpg" alt="Juego 2">
+      <h2>Mi Memory Game</h2>
+      <p>Juego casual para móvil.</p>
+      <a class="btn" href="https://tulinkdeljuego2.com" target="_blank" rel="noopener noreferrer">Ver</a>
+    </div>
+  </section>
+</body>
+</html>
